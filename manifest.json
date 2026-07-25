@@ -1,0 +1,10 @@
+{
+  "id": "custodian",
+  "name": "Custodian",
+  "version": "0.1.1",
+  "minAppVersion": "1.5.0",
+  "description": "Automatically organize vault files with title, frontmatter, tag, extension, and folder rules.",
+  "author": "Giblicious",
+  "authorUrl": "https://github.com/Giblicious",
+  "isDesktopOnly": false
+}

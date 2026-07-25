@@ -1,0 +1,21 @@
+{
+  "name": "custodian",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "builtin-modules": "^5.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}
